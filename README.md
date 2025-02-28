@@ -36,17 +36,17 @@ If lane markings are not visible, estimate the width of the road.
 
 Identify and mark the corners of the road.
 
-Billboard Detection
+### Billboard Detection
 
 Locate billboards in the image.
 
-Billboard Positioning
+### Billboard Positioning
 
 Determine whether the billboard is positioned on the Left-Hand Side (LHS), Right-Hand Side (RHS), or Overhead on the road.
 
-Billboard Size and Placement Analysis
+### Billboard Size and Placement Analysis
 
-### Extract the following measurements for each billboard:
+Extract the following measurements for each billboard:
 
 Width (W): The width of the billboard face.
 
@@ -89,16 +89,6 @@ Process the 2D image to detect and extract the above-listed features.
 Utilize image processing techniques and computer vision algorithms to automate feature extraction.
 
 Validate the extracted features against known reference data where applicable.
-
-### Tools & Technologies
-
-OpenCV for image processing
-
-Python for scripting and automation
-
-Machine learning models (if applicable) for feature detection
-
-Geometric analysis for distance and positioning calculations
 
 ### Expected Output
 
